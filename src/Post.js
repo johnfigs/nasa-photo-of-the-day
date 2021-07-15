@@ -11,6 +11,8 @@ const Post = props => {
             <div className='post-image'>
                 {/* add image component here */}
                 <Image image={post.url} />
+                {/* Add Info component here */}
+                <Info infoDate={post.date} infoExplanation={post.explanation} infoCopyright={post.copyright} />
             </div>
         </div>
     )
