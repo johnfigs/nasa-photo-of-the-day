@@ -8,6 +8,10 @@ const Post = props => {
     return (
         <div className='post-border'>   
             <h1>{post.title}</h1>
+            <div className='post-image'>
+                {/* add image component here */}
+                <Image image={post.url} />
+            </div>
         </div>
     )
 
