@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 const Image = props => {
     const {image} = props;
+    
     return (
         <div className='img-container'>
             <img
