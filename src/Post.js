@@ -13,7 +13,8 @@ const StyledPost = styled.div`
     background-color: lightgrey;
 `
 const StyledH1 = styled.h1`
-    color: #61dafb;
+    color: #FF00FF;
+    font-family: 'Roboto', sans-serif;
 `
 
 const Post = props => {
